@@ -9,3 +9,58 @@ footer{
     font-size: 20px;
     color:black;
 }
+body {
+  background-color:darkkhaki;
+  font-family:Gill Sans;
+}
+h2 {
+  margin: 0 0 5px;
+  font-size: 28px;
+  color:darkred;
+}
+
+select {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 10px;
+  color:black;
+}
+
+.container {
+  max-width: 600px;
+  margin: 70px auto;
+  background:chocolate;
+  padding: 30px;
+  box-shadow: 0px 5px 6px 0px;
+  border-radius: 10px;
+}
+
+.city {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 1px dashed #22313f;
+}
+
+.city:last-child {
+  border: none;
+}
+
+.date {
+  opacity: 0.5;
+}
+
+.time {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.time small {
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 48px;
+}

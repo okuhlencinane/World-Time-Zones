@@ -14,9 +14,9 @@ function updateTime() {
   
   let toykoElement = document.querySelector("#Toyko");
   if (toykoElement) {
-    let toykoDateElement = parisElement.querySelector(".date");
-    let toykoTimeElement = parisElement.querySelector(".time");
-    let toykoTime = moment().tz("Asia/Toyko");
+    let toykoDateElement = toykoElement.querySelector(".date");
+    let toykoTimeElement = toykoElement.querySelector(".time");
+    let toykoTime = moment().tz("Asia/Tokyo");
 
     toykoDateElement.innerHTML = toykoTime.format("MMMM	Do YYYY");
     toykoTimeElement.innerHTML = toykoTime.format(
